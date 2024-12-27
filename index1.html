@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Shopzy</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to Shopzy</h1>
+        <p>Your one-stop shop for all your needs!</p>
+    </section>
+
+    <section id="products">
+        <h2>Shirts, Pants, and T-Shirts</h2>
+        <div class="product-grid">
+
+            <div class="product">
+                <img src="pink solid.jpg" alt="Pink Solid Formals">
+                <h3>Pink Solid Formals</h3>
+                <p>₹1,299</p>
+                <button class="add-to-cart" data-name="Pink Solid Formals" data-price="1299">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items">
+            <p>Your cart is empty.</p>
+        </div>
+        <p id="total-price"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shopzy. All rights reserved.</p>
+    </footer>
+    
+    <script src="2.js"></script>
+</body>
+</html>
